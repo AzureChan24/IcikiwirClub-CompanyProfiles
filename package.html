@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="assets/icikiwir.ico" type="image/x-icon" />
+    <title>ICIKIWIR CLUB | PRODUK</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-opacity-50"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/icikiwir.png" alt="" width="100" />
+        </a>
+        <a class="navbar-brand" href="index.html"
+          ><strong>ICIKIWIR CLUB</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="package.html">PRODUK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">PROFILE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visimisi.html">VISI & MISI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galery.html">GALERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="klien.html">KLIEN KAMI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artikel.html">ARTIKEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">EVENT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <!-- header -->
+    <div class="container mt-5 pt-5">
+      <div class="py-3">
+        <div class="align-items-center p-0">
+          <h2 class="text-center">Cari Perlengkapan</h2>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="col-md-6" id="navbarSupportedContent">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Find package ..."
+              aria-label="Search"
+            />
+            <button type="button" class="btn btn-primary">Cari</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card m-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="assets/Helm.jpg" alt="sans" width="100%" />
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><h4>Helm</h4></li>
+                    <li class="list-group-item">
+                      Helm Untuk Riding yang sangat nyaman dan nyaman untuk
+                      digunakan
+                    </li>
+                    <li class="list-group-item">
+                      <strike>Rp3.000.000</strike> RP2.500.000
+                    </li>
+                    <li class="list-group-item">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Beli Sekarang
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-bs-toggle="modal"
+                              data-bs-target="#memberModal"
+                              >Member</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Non-Member</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="modal fade"
+                  id="memberModal"
+                  tabindex="-1"
+                  aria-labelledby="memberModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="memberModalLabel">
+                          Input Member ID Untuk Mendapatkan Potongan
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <label for="memberID" class="form-label"
+                          >Member ID:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="memberID"
+                          placeholder="Masukkan Nomor Member ID"
+                        />
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          href="package.html"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card m-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="assets/Gloves.jpg" alt="sans" width="100%" />
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><h4>Sarung Tangan</h4></li>
+                    <li class="list-group-item">
+                      Berbagai Jenis Pilihan Sarung Tangan Untuk Riding
+                    </li>
+                    <li class="list-group-item">
+                      <strike>Rp500.000</strike> RP400.000
+                    </li>
+                    <li class="list-group-item">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Beli Sekarang
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-bs-toggle="modal"
+                              data-bs-target="#memberModal"
+                              >Member</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Non-Member</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="modal fade"
+                  id="memberModal"
+                  tabindex="-1"
+                  aria-labelledby="memberModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="memberModalLabel">
+                          Input Member ID Untuk Mendapatkan Potongan
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <label for="memberID" class="form-label"
+                          >Member ID:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="memberID"
+                          placeholder="Masukkan Nomor Member ID"
+                        />
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          href="package.html"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card m-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="assets/jaket.jpg" alt="sans" width="100%" />
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><h4>Jaket</h4></li>
+                    <li class="list-group-item">
+                      Berbagai Jenis Pilihan Jaket Untuk Riding
+                    </li>
+                    <li class="list-group-item">
+                      <strike>Rp650.000</strike> Rp500.000
+                    </li>
+                    <li class="list-group-item">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Beli Sekarang
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-bs-toggle="modal"
+                              data-bs-target="#memberModal"
+                              >Member</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Non-Member</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="modal fade"
+                  id="memberModal"
+                  tabindex="-1"
+                  aria-labelledby="memberModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="memberModalLabel">
+                          Input Member ID Untuk Mendapatkan Potongan
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <label for="memberID" class="form-label"
+                          >Member ID:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="memberID"
+                          placeholder="Masukkan Nomor Member ID"
+                        />
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          href="Masukkan Nomor Member ID"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card m-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="assets/Sepatu.jpg" alt="sans" width="100%" />
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><h4>Sepatu Riding</h4></li>
+                    <li class="list-group-item">
+                      Berbagai Pilihan Sepatu Untuk Riding
+                    </li>
+                    <li class="list-group-item">
+                      <strike>Rp1.000.000</strike> Rp950.000
+                    </li>
+                    <li class="list-group-item">
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Beli Sekarang
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-bs-toggle="modal"
+                              data-bs-target="#memberModal"
+                              >Member</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Non-Member</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="modal fade"
+                  id="memberModal"
+                  tabindex="-1"
+                  aria-labelledby="memberModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="memberModalLabel">
+                          Input Member ID Untuk Mendapatkan Potongan
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <label for="memberID" class="form-label"
+                          >Member ID:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="memberID"
+                          placeholder="Masukkan Nomor Member ID"
+                        />
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          href="package.html"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+
+    <!-- footer -->
+    <div style="background-color: rgb(75, 75, 75)">
+      <div class="container mt-5 py-4">
+        <div class="row">
+          <div class="col-md-3"><h4 class="text-white">ICIKIWIR CLUB</h4></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <h4 class="text-white">Cabang Kami</h4>
+            <p class="text-white">Jakarta</p>
+            <p class="text-white">Boyolali</p>
+            <p class="text-white">Magetan</p>
+          </div>
+          <div class="col-md-2">
+            <h4 class="text-white">Kontak Kami</h4>
+            <p class="text-white">icikiwirclub24@gmail.com</p>
+            <p class="text-white">+62 858-6589-5369</p>
+          </div>
+          <div class="col-md-2">
+            <h4 class="text-white">Perusahaan</h4>
+            <p class="text-white">Tentang kami</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
